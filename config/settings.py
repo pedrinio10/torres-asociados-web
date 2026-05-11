@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-te2o7g8ymddj9(p#(vidldk+*-l+o69trahd^(%-c=be@u*7(4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = ['*']
-
+ALLOWED_HOSTS = [
+    'juridicotorres.com',
+    'www.juridicotorres.com',
+]
 
 # Application definition
 
