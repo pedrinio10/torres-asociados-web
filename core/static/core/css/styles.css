@@ -796,3 +796,30 @@ h1, h2, .navbar-brand {
     }
 
 }
+.institutional-phrase {
+    text-align: center;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+.institutional-phrase h2 {
+    color: #d6b15e;
+
+    font-size: 2.3rem;
+
+    line-height: 1.5;
+
+    font-weight: 700;
+
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 576px) {
+
+    .institutional-phrase h2 {
+        font-size: 1.6rem;
+    }
+
+}
