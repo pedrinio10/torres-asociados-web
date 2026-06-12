@@ -19,7 +19,7 @@ if (consultaForm) {
         const tipoConsulta = document.getElementById('tipoConsulta').value;
         const mensaje = document.getElementById('mensaje').value;
 
-        const numeroWhatsApp = '2664158982';
+        const numeroWhatsApp = '2664579329';
 
         const texto = `Hola, quisiera realizar una consulta legal.%0A%0A` +
             `Nombre: ${nombre}%0A` +
